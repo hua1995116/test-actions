@@ -14,7 +14,7 @@ jobs:
       - name: Build and Deploy
         uses: saltbo/uptoc@master
         with:
-          driver: oss
+          driver: qiniu
           region: s3-cn-east-2
           bucket: qiufeng-blue
           exclude: assets
