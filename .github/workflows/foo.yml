@@ -15,7 +15,7 @@ jobs:
         uses: saltbo/uptoc@master
         with:
           driver: qiniu
-          region: s3-cn-east-2
+          region: cn-east-2
           bucket: qiufeng-blue
           exclude: assets
           dist: dist
